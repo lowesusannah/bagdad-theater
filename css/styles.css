@@ -1,0 +1,116 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/bg-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+.navbar-default {
+  background-color: black;
+  width: 100vw;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: -30px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+ .navbar-nav{
+  position: absolute;
+  right: 50px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: sarala;
+}
+
+.background-photo {
+  background-image: url("../img/bagdad.jpeg");
+  width: 100vw;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  height: 1200px;
+  position: relative;
+  width: 100vw;
+}
+
+.panel-body {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.row {
+  width: 100vw;
+  margin-right: 20px;
+  height: 50vh;
+  margin-top: 20px;
+}
+
+/*.panel-default {
+  width: 28vw;
+  margin: 2vw;
+  background-color: transparent;
+  /*border-color: transparent;*/*/
+}
+
+p {
+  font-family: sarala;
+  font-size: 15px;
+  margin-right: 50vw;
+}
+
+h1 {
+  font-family: poorfarm;
+  font-weight: 400px;
+  font-size: 38px;
+}
+
+h2 {
+  font-family: Alegreya SC;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.blue {
+  color:#6293BC;
+}
+
+a {
+  color: white;
+}
+
+
+/*background-image: url("https://www.mcmenamins.com/images/background/bg-wavy.jpg");*/
+
+
+
+
+
+/*Colors:
+dark grey: 2C2C2C
+light yellow: ECDFBC
+blue:
+
+
+
+Font:
+Navbar lg head: same as subtitle, line height 34 px, #afbabf
+Title: poorfarm; normal, 400 weight, 38px, white
+Subtitle: Sarala; normal, 400, 15px, line height: 23px, rgba(236, 224, 186, 0.8)
+Subheads centered, white: Alegreya SC - bold, 24px, 32px line height, white
+
+*/
