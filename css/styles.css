@@ -4,10 +4,11 @@
 }
 
 body {
-  background-image: url("../img/bg-4.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100vw;
+  /*background-image: url("../img/bg-4.jpg");*/
+  /*background-size: cover;*/
+  /*background-repeat: no-repeat;*/
+  /*width: 100vw;*/
+  background-color: #4f090a;
 }
 
 .navbar-default {
@@ -41,14 +42,15 @@ body {
 }
 
 .container {
-  height: 1200px;
+  height: 100vh;
   position: relative;
   width: 100vw;
+  background-color: #4f090a;
 }
 
 .panel-body {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  background-color: #4f090a;
+  color: white;;
 }
 
 .row {
@@ -58,11 +60,12 @@ body {
   margin-top: 20px;
 }
 
-/*.panel-default {
-  width: 28vw;
-  margin: 2vw;
-  background-color: transparent;
-  /*border-color: transparent;*/*/
+/*.panel-default {*/
+  /*width: 25vw;*/
+  /*height: 20vh;*/
+  /*margin: 0;*/
+  /*background-color: #4f090a;*/
+  /*border-color: transparent;*/
 }
 
 p {
